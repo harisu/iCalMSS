@@ -40,8 +40,8 @@ for row in reader:
 
         # イベント作成
         event = Event()
-        event.add('summary', 'ほげ')
-        event.add('description', 'ほげ 詳細') 
+        event.add('summary', '休日')
+        event.add('description', '明電休日') 
 
         tz_tokyo = pytz.timezone('Asia/Tokyo')
         event.add('dtstart', datestart)
